@@ -124,15 +124,15 @@ Si es menor a 4: "Reprobado".
  */
 
 function sistemasNotas() {
-    let nota = parseInt(prompt("Ingresa una nota: "));
+    let nota = parseFloat(prompt("Ingresa una nota: "));
 
-    if (nota < 4 && nota > 0) {
+    if (nota < 4.0 && nota > 0.0) {
         alert("Reprobado")
     }
-    else if (nota >= 4 && nota < 5.9) {
+    else if (nota >= 4.0 && nota <= 5.9) {
         alert("Aprobado, vas a examen");
     }
-    else if (nota >= 6 && nota <= 7) {
+    else if (nota >= 6.0 && nota <= 7.0) {
         alert("Excelente, eximido")
     }
     else {
