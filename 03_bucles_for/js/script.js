@@ -163,7 +163,7 @@ function parrafoAdvertencia() {
     for (let i = 0; i < temperaturas.length; i++) {
 
         if (temperaturas[i] > 30) {
-            resultado.innerHTML +=`¡ALERTA! Temperatura crítica de ${temperaturas[i]} grados.` ;
+            resultado.innerHTML +=`¡ALERTA! Temperatura crítica de ${temperaturas[i]} grados.<br>` ;
         }
 
     }
