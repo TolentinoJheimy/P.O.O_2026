@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,34 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body>
-    
-    <div class="card" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-title">Ejercicio 1</h5>
-                    <input type="text" class="form-control mb-3" id="input1" placeholder="Ingresa tu nombre">
-                    <a href="#" class="btn btn-primary" onclick="listaAsistencia()">Go</a>
-                    <div id="resultadoContainer1" class="mt-4 d-none">
-                        <h5>Resultado:</h5>
-                        <div id="result1" class="alert alert-success fw-bold"></div>
-                    </div>
-                </div>
-            </div>
 
+<body>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 1</h5>
+            <input type="text" class="form-control mb-3" id="input1" placeholder="Ingresa tu nombre">
+            <a href="#" class="btn btn-primary" onclick="listaAsistencia()">Go</a>
+            <div id="resultadoContainer1" class="mt-4 d-none">
+                <h5>Resultado:</h5>
+                <div id="result1" class="alert alert-success fw-bold"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Ejercicio 2</h5>
+            <input type="text" class="form-control mb-3" id="input2" placeholder="Ingresa tu nombre">
+            <a href="#" class="btn btn-primary" onclick="ingresarUrgencia()">Go</a>
+            <div id="resultadoContainer2" class="mt-4 d-none">
+                <h5>Resultado:</h5>
+                <div id="result2" class="alert alert-success fw-bold"></div>
+            </div>
+        </div>
+    </div>
+    <script src="static/js/script.js"></script>
 </body>
+
 </html>
