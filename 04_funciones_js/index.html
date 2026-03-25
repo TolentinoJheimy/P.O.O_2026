@@ -38,15 +38,48 @@
             </div>
         </div>
 
-
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-                <h5 class="card-title">Ejercicio 3</h5>
-                <input type="text" class="form-control mb-3" id="input2" placeholder="Ingresa tu nombre">
-                <a href="#" class="btn btn-primary" onclick="">Go</a>
-                <div id="resultadoContainer3" class="mt-4 d-none">
+                <h5 class="card-title">Ejercicio 3: </h5>
+                <input type="text" class="form-control mb-3" id="input3" placeholder="despachar/cancelar">
+                <a href="#" class="btn btn-primary" onclick="gestionarPedidos()">Go</a>
+                <div id="container3" class="mt-4 d-none">
                     <h5>Resultado:</h5>
                     <div id="result3" class="alert alert-success fw-bold"></div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Ejercicio 4: </h5>
+                <input type="text" class="form-control mb-3" id="input4" placeholder="...">
+                <a href="#" class="btn btn-primary" onclick="buscarCodigpo()">Go</a>
+                <div id="container4" class="mt-4 d-none">
+                    <h5>Resultado:</h5>
+                    <div id="result4" class="alert alert-success fw-bold"></div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Ejercicio 5</h5>
+                <input type="text" class="form-control mb-3" id="input5_1" placeholder="Ingresa monto">
+                <input type="text" class="form-control mb-3" id="input5_2" placeholder="Ingresa cuotas">
+                <a href="#" class="btn btn-primary" onclick="simularCuotas()">Go</a>
+                <div id="resultadoContainer5" class="mt-4 d-none">
+                    <h5>Resultado:</h5>
+                    <div id="result5" class="alert alert-success fw-bold"></div>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Ejercicio 6</h5>
+                <input type="text" class="form-control mb-3" id="input6" placeholder="Ingresa monto">
+                <a href="#" class="btn btn-primary" onclick="filtrarPrecios()">Go</a>
+                <div id="resultadoContainer6" class="mt-4 d-none">
+                    <h5>Resultado:</h5>
+                    <div id="result6" class="alert alert-success fw-bold"></div>
                 </div>
             </div>
         </div>
